@@ -1,0 +1,35 @@
+/* works.component.css */
+/* Add any specific styles for the work-item component here */
+:host {
+  display: block;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Keep existing color class */
+.color1 {
+  background-color: #12372A;
+}
+
+/* Add global styles to root container */
+:root {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Ensure container fills width */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000; /* Ensures menu stays on top */
+}
