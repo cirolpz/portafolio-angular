@@ -3,9 +3,13 @@
 
 Este proyecto es una aplicación de portafolio personal desarrollada en Angular. El objetivo principal es mostrar los proyectos y habilidades del desarrollador de una manera organizada y visualmente atractiva. La aplicación está dividida en varios componentes reutilizables, lo que facilita la gestión y actualización del contenido.
 ### VIDEO
- <img src="https://img.youtube.com/vi/yw3zVEmrAj0/maxresdefault.jpg" alt="Generador-de-Regiones-de-grafo" style="width: 100%; border-radius: 8px;">
-https://youtu.be/yw3zVEmrAj0
+<td style="width: 50%; border: 2px solid #FFA500; padding: 15px;">
+      <a href="https://www.youtube.com/watch?v=yw3zVEmrAj0" target="_blank">
+        <img src="https://img.youtube.com/vi/yw3zVEmrAj0/maxresdefault.jpg" alt="ScreenMatch-ManejoDeSeriesConAPIyBD" style="width: 100%; border-radius: 8px;">
+      </a>
+    </td>
 
+    
 ### Componentes Principales
 
 1.  **ProyectosComponent**: Este componente es responsable de mostrar una lista de proyectos. Cada proyecto se muestra utilizando el componente  `ProjectItemComponent`.
