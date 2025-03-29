@@ -3,14 +3,14 @@ import { provideRouter } from '@angular/router';
 import { importProvidersFrom } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { BiografiaComponent } from './biografia/biografia.component';
-import { ProyectosComponent } from './proyectos/proyectos.component';
-import { SkillsComponent } from './skills/skills.component';
-import { EducationComponent } from './education/education.component';
-import { WorksComponent } from './works/works.component';
-import { FooterComponent } from './footer/footer.component';
-import { MenuComponent } from './menu/menu.component';
+import { HeaderComponent } from './components/header/header.component';
+import { BiografiaComponent } from './components/biografia/biografia.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { EducationComponent } from './components/education/education.component';
+import { WorksComponent } from './components/works/works.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 export const appConfig: ApplicationConfig = {
   providers: [

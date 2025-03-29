@@ -1,11 +1,10 @@
 <div class="relative">
-    <!-- Menu fixed on top -->
     <app-menu class="fixed-menu"></app-menu>
-    
       <app-contact></app-contact>
       <app-biografia></app-biografia>
-      <app-proyectos></app-proyectos>
-      <div class="color3 grid grid-cols-2 gap-x-14 gap-y-8 md:grid-cols-4 lg:gap-x-8 lg:gap-y-12 relative" style="padding-top: 150px;">
+      <app-proyectos></app-proyectos>      
+      <div id="skills" class="color2 grid grid-cols-2 gap-x-14 gap-y-8 md:grid-cols-4 lg:gap-x-8 lg:gap-y-12 relative" style="padding-top: 150px;">
+        <div class="triangle-inverted"></div>
         <app-skill 
           imgSrc="../../assets/img/java.png" 
           altText="JAVA" 
@@ -29,10 +28,11 @@
           sizeClass="h-20 w-20 md:h-28 md:w-28">
         </app-skill>
       </div>
+      
     <div id="education" class="color1 grid grid-cols-2 gap-x-14 gap-y-8 md:grid-cols-4 lg:gap-x-8 lg:gap-y-12" style="padding-top: 50px;"> 
         <h2 class="mb-4 text-center font-bold text-gray-100 md:mb-6 lg:text-3xl">Educacion</h2>  
       </div>
-      <div class="color4 py-6 sm:py-8 lg:py-12">
+      <div class="color3 py-6 sm:py-8 lg:py-12">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 xl:gap-8">
             <app-education-item 
@@ -69,7 +69,7 @@
 <div id="works" class="color1 grid grid-cols-2 gap-x-14 gap-y-8 md:grid-cols-4 lg:gap-x-8 lg:gap-y-12" style="padding-top: 50px;"> 
   <h2 class="mb-4 text-center font-bold text-gray-100 md:mb-6 lg:text-3xl">Trabajos</h2>    
 </div>
-<div class="color4 py-6 sm:py-8 lg:py-12">
+<div class="color3 py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
       <app-work-item 

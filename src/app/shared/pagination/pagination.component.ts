@@ -2,14 +2,19 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-pagination',
-  templateUrl: './pagination.component.html',
-  styleUrls: ['./pagination.component.css']
+  template: './pagination.component.html'
 })
 export class PaginationComponent {
   @Input() totalItems: number;
   @Input() itemsPerPage: number;
   @Input() currentPage: number;
   @Output() pageChanged: EventEmitter<number> = new EventEmitter<number>();
+
+  constructor() {
+    this.totalItems = 0;
+    this.itemsPerPage = 10;
+    this.currentPage = 1;
+  }
 
   get totalPages(): number {
     return Math.ceil(this.totalItems / this.itemsPerPage);
